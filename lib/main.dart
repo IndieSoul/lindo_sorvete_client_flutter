@@ -1,8 +1,14 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:lindosorveteclient/pages/login/login_page.dart';
+import 'package:lindosorveteclient/firebase_options.dart';
+import 'package:lindosorveteclient/pages/loading_app/loading_app_page.dart';
 import 'package:lindosorveteclient/utils/custom_colors.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
@@ -18,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: CustomColors.oragenIceCreamMaterialColor,
       ),
-      home: LoginPage(),
+      home: const LoadingAppPage(),
     );
   }
 }

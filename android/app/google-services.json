@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "613265399604",
+    "project_id": "my-project-1544653009300",
+    "storage_bucket": "my-project-1544653009300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613265399604:android:aa3fe167bf9d64bd054f61",
+        "android_client_info": {
+          "package_name": "com.jectlabstudio.lindosorvete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613265399604-b05n9ecasip6mgl0538rrkj5sutbip31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQtnTcANRoLqxmIs06wbElf9GRch4k9cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613265399604-b05n9ecasip6mgl0538rrkj5sutbip31.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "613265399604-3mpm5hgq6hti7mijbfrgrv2vv810cajd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jectlabstudio.lindoSorvete"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613265399604:android:f9295641612f32e5054f61",
+        "android_client_info": {
+          "package_name": "com.jectlabstudio.lindosorvete.lindosorveteclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613265399604-b05n9ecasip6mgl0538rrkj5sutbip31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQtnTcANRoLqxmIs06wbElf9GRch4k9cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613265399604-b05n9ecasip6mgl0538rrkj5sutbip31.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "613265399604-3mpm5hgq6hti7mijbfrgrv2vv810cajd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jectlabstudio.lindoSorvete"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
